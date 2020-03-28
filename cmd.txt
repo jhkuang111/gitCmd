@@ -1,4 +1,5 @@
-git add some_file git commit -m "comments" git push
+git add some_file 
+git commit -m "comments" git push
 
 git checkout -b branch_name
 
