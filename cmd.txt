@@ -20,3 +20,4 @@ git push --force
 
 git pull 
 git merge master
+git rebase master (on top of git pull from master and add new stuff from this branch to it)
