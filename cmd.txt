@@ -3,7 +3,8 @@ git commit -m "comments" git push
 
 git checkout -b branch_name
 
-git branch git status
+git branch
+git status
 
 git push origin -u remote_branch_name (to set up remote branch tracking)
 
@@ -19,6 +20,8 @@ git branch -u origin/mainline (set up to track origin master)
 git branch --unset-upstream (to untrack)
 git branch -vvv (to see latest commits of each branch)
 git push origin BranchName:masterBranch
+
+git rebase -i HEAD~number
 
 git reset --hard HEAD~number 
 git push --force
