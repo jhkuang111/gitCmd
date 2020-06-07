@@ -15,6 +15,11 @@ git remote update origin --prune (update list of remote tracking branches)
 git branch -D branch_name (locally)
 git branch -d branch_name (if safe)
 
+git branch -u origin/mainline (set up to track origin master)
+git branch --unset-upstream (to untrack)
+git branch -vvv (to see latest commits of each branch)
+git push origin BranchName:masterBranch
+
 git reset --hard HEAD~number 
 git push --force
 
