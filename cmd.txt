@@ -21,6 +21,9 @@ git branch --unset-upstream (to untrack)
 git branch -vvv (to see latest commits of each branch)
 git push origin BranchName:masterBranch
 
+git fetch origin
+git checkout branch-name (fix-resource-leak)
+
 git rebase -i HEAD~number
 
 git reset --hard HEAD~number 
