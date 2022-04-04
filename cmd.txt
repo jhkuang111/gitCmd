@@ -13,6 +13,8 @@ git status
 git branch --unset-upstream
 git remote update origin --prune (update list of remote tracking branches)
 
+git push origin localBranchBeingWorkedOn:mainline (push changes on local working branch to destination branch)
+
 git branch -D branch_name (locally)
 git branch -d branch_name (if safe)
 
