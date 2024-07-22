@@ -41,6 +41,8 @@
 * git branch --unset-upstream (to untrack)
 * git branch -vvv (to see latest commits of each branch)
 * git push origin BranchName:masterBranch
+
+* git push --force (if local and remote differ)
 ```
 
 ```
@@ -51,8 +53,16 @@
 ```
 * git rebase -i HEAD~number
 
+if (conflict)
+* git diff --check (to find conflicts and resolve)
+* git add --all
+* git rebase --continue
+```
+
+```
 * git reset --hard HEAD~number 
-* git push --force
+
+* git revert COMMIT_HASH
 ```
 
 ```
