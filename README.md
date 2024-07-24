@@ -71,6 +71,13 @@ if (conflict)
 * git rebase master (on top of git pull from master and add new stuff from this branch to it)
 ```
 
+```
+* git stash push -m "STASH_MESSAGE"
+* git stash list
+* git stash pop (to apply and remove the latest stash)
+* git stash pop stash@{1} (to pop a specific stash)
+```
+
 ---
 
 ***Starting new repo***
